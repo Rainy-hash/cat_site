@@ -1,0 +1,92 @@
+body {
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: rgba(0, 0, 0, 0.849);
+    color: rgba(255, 254, 254, 0.849);
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+header {
+    background-color: rgba(34, 33, 33, 0.849);
+    margin-top: 0;
+    padding-top: 20px;
+    border-radius: 0px 0px 20px 20px;
+}
+
+h1 {
+    text-align: center;
+    font-size: 48px;
+    font-family:Verdana, Tahoma, sans-serif;
+    text-decoration: none;
+}
+
+.miau_title {
+    text-align: center;
+    font-style: italic;
+    padding-bottom: 10px;
+}
+
+figure {
+    text-align: center;
+}
+
+.miau_pic {
+    display: inline-block;
+    height: 500px;
+    margin-top: 70px;
+    position: absolute;
+    right: 350px;
+}
+
+figcaption {
+    position: relative;
+    top: 72%;
+    left: 62.5%;
+}
+
+.main_miau {
+    display: flex;
+    flex-direction: column;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.main_miau fieldset {
+    margin: 0;
+    border: none;
+    max-width: 400px;
+    word-wrap: break-word;
+}
+
+.main_miau li{
+    padding: 4px 0px;
+}
+
+.miau_feats {
+    flex: 1;
+    order: 2;
+}
+
+.miau_quotes {
+    flex: 2;
+    order: 1
+}
+
+footer {
+    font-size: 10px;
+    text-align: right;
+    color: rgba(255, 255, 255, 0.3);
+    margin: 10px;
+}
+
+a {
+    font-size: 10px;
+    text-align: right;
+    color: rgba(255, 255, 255, 0.3);
+    text-decoration: none;
+}
+
+a:hover {
+    font-style: italic;
+}
